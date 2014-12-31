@@ -6,12 +6,17 @@
 
     <link href="css/app.css" rel="stylesheet">
 
+    <!-- 1. Load platform support before any code that touches the DOM. -->
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+
+    <!-- 2. Load the component using an HTML Import -->
+    <link rel="import" href="elements/frp-header.html">
+
 </head>
 <body ng-app="App">
 
-    <section class="main-content">
-
-    </section>
+    <!-- 3. Declare the element by its tag. -->
+    <frp-header></frp-header>
 
     <script src="bundle.js"></script>
 

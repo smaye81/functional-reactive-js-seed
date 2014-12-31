@@ -1,13 +1,14 @@
-angular-browserify-seed
+functional-reactive-js-seed
 =======================
 
-Seed project using Angular and Browserify
+Seed project using BaconJS and virtual-dom for Functional Reactive Programming and Polymer for Web Components
 
 Uses:
 
-* Angular
+* BaconJS
+* virtual-dom
 * Browserify
-* Angular UI Router
+* Polymer
 * Bootstrap
 * Gulp
 * Karma

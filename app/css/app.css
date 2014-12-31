@@ -2,7 +2,6 @@ body {
     padding:24px;
 }
 
-.album-title:hover {
-    cursor:pointer;
-    font-weight:bold;
+.virtual-dom-example {
+
 }

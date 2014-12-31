@@ -1,5 +1,5 @@
 {
-  "name": "frp-seed",
+  "name": "functional-reactive-js-seed",
   "version": "0.1.0",
   "authors": [
     "Steve Ayers <smaye81@gmail.com>"
@@ -14,5 +14,8 @@
   ],
   "dependencies": {
     "bootstrap": "~3.2.0"
+  },
+  "devDependencies": {
+    "polymer": "~0.5.2"
   }
 }

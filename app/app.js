@@ -5,7 +5,13 @@ var createElement = require('virtual-dom/create-element');
 
 // 1: Create a function that declares what the DOM should look like
 function render(count)  {
-    return h('div', {
+    var childNode = h('span.child', {
+       style : {
+           border: "1px solid green"
+       }
+    }, ["Test: " + count]);
+
+    return h('.virtual-dom-example', {
         style: {
             textAlign: 'center',
             verticalAlign: 'center',
@@ -14,7 +20,7 @@ function render(count)  {
             width: (100 + count) + 'px',
             height: (100 + count) + 'px'
         }
-    }, [String(count)]);
+    }, [childNode]);
 }
 
 // 2: Initialise the document
